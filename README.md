@@ -13,7 +13,7 @@ The repository has the following structure:
 
 ## Getting Started
 To get started with recommendation-clustering, follow these steps:
-Set up a virtual environment by running `conda env create -f environment.yml` and activate it
+Set up a virtual environment by running `conda env create -f environment.yml -p ./env` and activate it
 Run the script with `python3 run.py`
 The resulting clusters will be saved in recommendations.csv and displayed in a 3D scatter plot, where each point represents a recommendation and is colored based on its cluster. The plot is saved as `AI_clusters.png` in the project directory.
 
@@ -25,7 +25,7 @@ This project requires the following dependencies:
 - scikit-learn
 - matplotlib
 
-You can install all dependencies by running `conda env create -f environment.yml`.
+You can install all dependencies by running `conda env create -f environment.yml -p ./env`.
 
 ## License
 This project is licensed under the MIT License.
