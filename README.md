@@ -24,6 +24,7 @@ This project requires the following dependencies:
 - umap
 - scikit-learn
 - matplotlib
+
 You can install all dependencies by running `conda env create -f environment.yml`.
 
 ## License
